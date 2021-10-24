@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    border: 2px solid #555;
+    float: left;
+    margin-right: 20px;
+    /* margin-left: 350px; */
+    margin-top: 0px;
+}
+
+hr{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style: inset;
+    border-width: 2px;
+    margin-left: 40px;
+    margin-right: 40px;
+} 
+
+h3{
+    margin-left: 0px;
+}
+
+b{
+    margin-left: 0px;
+}
+
+#qualification-table{
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    border-spacing: 15px 9px;
+}
+
+td{
+    padding: 1px;
+    /* border: 1px solid #E88741; */
+}
+
+#skills-table{
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    border-spacing: 15px 9px;
+}
+
+#pdfs{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.inline-block {
+    display: inline-block;
+ }
+
+ #container{
+    width: 700px;
+    margin:auto;
+    padding:10px 0 5px 0;
+    border-bottom:3px solid red;
+    background:#2E2E2E;
+}
+    
+#container p{
+    text-align:Center;
+}
+    
+.box{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:2px solid #6E6E6E;
+    width: 500px;
+    background:#2E2E2E;
+    outline: none;
+    color:white;
+    font-family:'Abel', sans-serif;
+    font-size:100%;
+}
+    
+#container label{
+    font-family:'Abel', sans-serif;
+    color:white;
+    padding:0 10px 0 0;
+}
+    
+.box[type=text]:focus{border-bottom:2px solid #FA5858;}
+
+#button{
+    border:none;
+    width:30%;
+    padding:5px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color:white;
+    background:#FA5858;
+    margin:0 0 0 55px;
+}
